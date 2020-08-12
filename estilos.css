@@ -1,0 +1,1097 @@
+body{
+    max-width: 1490px;
+    width: 95vw;
+    margin: 0px auto;
+    background-image: url("/imagenes/LOGO.png");
+    background-attachment: fixed;
+    background-position: center 5em;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#mainNav{
+    margin: 0px auto;
+    transition: top 1s ;
+    transition-timing-function: ease-out;
+    grid-template-columns: 15% 85%;
+  box-shadow: 1px 2px 2px rgba(255, 155, 119, 0.371);
+ width: 100%;
+
+}
+
+
+.inicial{
+    height: 5.8rem;
+    background-color: rgba(175, 190, 255, 0.438);
+    width: 100%;   
+    position:fixed;
+    right: 0;
+    top:0;
+    left:0;
+}
+
+.inicial figure{
+    height: 100%;
+}
+
+.inicial figure img{
+    height: 70%;
+    padding-right:20px;
+  display: inline-block;
+    margin:auto;
+}
+
+.inicial h1{
+    display: none;
+}
+
+.inicial nav{
+    box-sizing: border-box;
+  padding: 0px;
+   width: 100%;
+   height: 100%;
+  text-align: right;
+}
+
+.inicial nav ul{
+    display: inline-block;
+    margin-top: 1.3%;
+    margin-right: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.inicial nav ul li{ 
+    display: inline-block;
+   width:auto;
+   margin: 1%;
+    color: burlywood;
+}
+
+.inicial nav ul li a{
+color: rgb(253, 142, 68);
+font-size: 1em;
+   
+}
+.inicial h1{
+    display:none;
+}
+.inicial .dropdown{
+    display: none;
+}
+ .mia{
+    top: -150vh !important;
+    }
+
+.final{
+    height: 3rem !important;
+    background-color:  rgb(175, 190, 255) !important;
+    box-sizing: border-box;
+position: fixed !important;
+top:0 !important;
+width: 100% !important;
+left: 0 !important;
+z-index: 5!important;
+}
+
+.final h1{
+    padding:0.5em;
+width: 100%;
+background-image: url("/imagenes/Logo\ Provida\ 2\ \(2\).png");
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 100% 1;
+background-position: 20px 1px;
+}
+
+
+.final #supermenu{
+    display: none;
+}
+.final figure{
+    height: 100%;
+    display: none;
+    }
+
+.final figure img{
+    height: 100%;
+    display:none;
+}
+
+.final nav{ 
+    box-sizing: border-box;
+  padding: 0px;
+   width: 100%;
+   height: 100%;
+  text-align: right;
+}
+
+.final nav ul{
+    padding-top:0.2rem;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.final nav ul li{
+    display: inline-block;
+   width:auto;
+   margin: 0.2% 1%;
+    color: burlywood;
+}
+
+.final nav ul li a{
+color: rgb(253, 142, 68);
+font-size: 0.8rem;   
+}
+.final .chaolin{
+    display:none;
+    margin-right: 0px;
+}
+
+form input{
+   width: 10em;
+   border-color: rgba(255, 155, 119, 0.671);
+   border-style: groove;
+   border-width: 2px;
+   background-color: rgb(233, 236, 250);
+}
+form input:focus{
+
+    border-width: 1px;
+    border-color: rgb(253, 142, 68);
+    border-image: none;
+    box-shadow: 0px 0px 5px rgba(255, 106, 20, 0.445);
+}
+form input::placeholder{
+    font-size: 0.8em;
+    color: rgba(7, 23, 56, 0.911);
+    padding-left: 5%;
+    transform: perspective(500px) translateZ(-70px);
+}
+.btn{
+    background-color: rgba(122, 166, 255, 0.904);
+    width: auto;
+    height: 2rem;
+    padding-top: 2px;
+}
+.custom{
+    font-size: 0.9em;
+    font-weight: bold;
+    color: rgb(105, 150, 247);
+    text-shadow: 1px 1px  rgba(0, 15, 146, 0.548);
+   height: 100%;
+}
+
+.dropdown-menu{
+    box-sizing: border-box;
+    padding: 1em 0.4em;
+  background-color:rgb(198, 211, 218);
+    width: 300px;
+    border-color: 1px 1px 5px 10px rgba(255, 155, 119, 0.671);
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+.adentro{
+    text-align:center;
+}
+
+.adentro input{
+    display: inline;
+}
+
+
+
+#toche{
+    color: rgb(7, 85, 243);
+    text-shadow: 0px 0px 5px rgba(104, 168, 252, 0.507);
+}
+
+.dropdown-divider{
+    background-color: royalblue;
+    color: royalblue;
+   border-top: 1px solid #84c1ffdc;
+}
+
+.dropdown-toggle{
+    background-color: rgb(198, 211, 218);
+    color: rgb(5, 84, 255);
+}
+
+.dropdown-toggle:hover{
+    background: rgba(118, 160, 252, 0.13);
+    color: rgb(105, 39, 0);
+    box-shadow: 0px 0px 5px rgba(255, 106, 20, 0.527);
+}
+
+.show>.dropdown-toggle{
+    color: rgb(5, 84, 255);
+    background-color: hsla(22, 74%, 63%, 0.747);
+    box-shadow: 0px 0px 2px rgba(255, 106, 20, 0.527);
+    
+}
+
+.btn:focus{
+    box-shadow: 0px 0px 6px rgba(255, 106, 20, 0.945);
+}
+
+.firs li form .btn{
+background-color:rgba(1, 59, 167, 0.973);
+            
+        }
+
+/*-----------------SE ACABO EL FUCKING NAV--------------------------------}}}*/
+
+
+
+/*---------------------EMPIEZA EL FUCKING CUERPO------------------------------*/
+#cuerpo{
+    background-color: rgba(255, 255, 255, 0.677);
+}
+#cuerpo .container{
+    width: 100%;
+z-index: 1;
+padding: 1%;
+margin: 0px;
+}
+
+.container{
+    max-width: 100%;
+   }
+
+#presentacion{
+    height: 32rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 6rem;
+    }
+
+#calesita{
+    height: 100%;
+    }
+
+.carousel-inner{
+    height: 100%;
+}
+
+.mision{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: .4em 2em;
+    
+}
+
+.mision figure{
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.mision figure img{
+    width: 85%;
+    height: 90%;
+    margin-left: 14%;
+    margin-bottom: 2%;
+    
+}
+.texto{
+    padding: 0 6em;
+    color: rgba(44, 54, 82, 0.753);
+    font-size: 1.1rem;
+}
+.texto h1{
+    padding:.6em;
+}
+#presentacion div#calesita{
+    height: 80vh;
+}
+
+#segunda img{
+    width: 100%;
+}
+
+
+#tres .texto{
+    padding: 1.5em;    
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fd8e44fc' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fd8e44fc' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+
+/*------------------------  AANALISISSSS---------------------------------------------
+*/
+
+
+#analisis{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.877);
+    padding-top: 2%;
+}
+
+#analisis .container{
+    height: 100%;
+}
+#lectura{
+    height: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+#lectura article{
+    position: relative;
+   
+    background-color: rgba(175, 190, 255, 0.438);
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 68%;
+    padding: 1.3em;
+    transform: perspective(500px) translateZ(-10px);
+   background-size: 10% 5%;
+   transition: all 0.3s ease-out;
+   box-shadow: 0px 0px 5px rgba(122, 166, 255, 0.904);
+}
+
+#lectura article figure{
+    margin:0px auto;
+    width:110%;
+    height: 120%;
+    position:absolute;
+    top:-2rem;
+    left:-3rem;
+    transition: all 0.4s  ease-out;
+    
+}
+
+
+#lectura article figure img{
+    width: 100%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+#lectura article h3{
+    padding-top: 45%;
+    height: 100%;
+    font-size:1px;
+    color: rgb(0, 57, 170);
+    opacity:0;
+    width: 50%;
+    transition: opacity .3s .1s  ease-in;
+}
+
+
+#lectura article:hover figure{
+    width: 92%;
+    height: 100%;
+}
+
+#lectura article:hover h3{
+    font-size: 0.8em;
+    opacity:1;
+    width: 110%;
+} 
+#perfiles{
+    height: 40%;
+}
+#perfiles article{
+     text-align: center;
+        transition: all 0.3s ease-in;
+        background-color: rgba(175, 190, 255, 0.438);
+        box-shadow: 0px 0px 5px rgba(122, 166, 255, 0.904);
+}
+
+#perfiles figure{
+    margin:0px auto;
+    width: 100%;
+    height: 130%;
+    position:absolute;
+    left: -18%;
+    top:-15%;
+    transition: all .4s ease-in;
+}
+
+#perfiles figure img{
+    border-radius: 5px;
+    width: 95%;
+    height: 75%;
+}
+#perfiles h3{
+
+  margin-left:10%;
+    color: rgb(0, 51, 153);
+    font-size: 1.6em;
+    padding-top: 1%;
+    transition: all .2s ease-in-out;
+}
+
+#perfiles p{
+    margin-top: 25%;
+    padding:2em;
+    font-size: 0em;
+    opacity: 0;
+    transition: opacity 0.4s 0.1s ease-in;
+    color: rgb(0, 60, 180);
+}
+
+#perfiles article:hover figure{
+    width: 85%;
+    height:105%;
+}
+
+#perfiles article:hover p{
+    font-size:0.9em;
+    opacity:1;
+}
+
+#perfiles:hover h3{
+    margin-left: 65%;
+}
+/*---------------------------------------SE PRENDIERON LOS RESULTADOS------------------------------------------------*/
+#pruebas{
+   width: 100%;
+    height: auto;
+    background-color: rgb(175, 190, 255);
+    color: rgb(3, 34, 95);
+    padding:.5em;
+    box-shadow: 0px 0px 8px rgba(255, 115, 0, 0.603);
+}
+
+#pruebas h2{
+    text-align: center;
+    margin-left:2%;
+    font-size: 3em;
+    text-shadow: 1px 1px 5px rgba(247, 224, 211, 0.664);
+}
+#pruebas address{
+    font-size: 1.7rem;
+    width: 85%;
+    margin: 0px auto;
+    text-align: justify;
+    margin-bottom: 1rem;
+    text-shadow:  1px 1px 5px rgba(247, 224, 211, 0.664);
+
+}
+#pruebas p{
+    font-size: 1.5rem;
+    color: rgb(3, 34, 95);
+ text-align: center;
+ margin: 0px auto;
+ width: 100%;
+    text-shadow:   1px 1px 5px rgba(247, 224, 211, 0.664);
+}
+#pruebas p a{
+    color:rgba(238, 115, 32, 0.904);
+}
+
+.iniciado h2, .iniciado p, .iniciado a{
+    display: none;
+
+}
+
+/*-------------------------------Registroooooo-----------------------------------------------*/
+
+#registro{
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.877);
+}
+#registro h2{
+    padding-top: 5%;
+    color: rgba(51, 90, 168, 0.973);
+    font-size: 3rem;
+    margin-left: 2%;
+}
+#registro form{
+    height: 100%;
+    color: rgb(15, 46, 109);
+    width: 100%;
+}
+.form-row{
+    width: 100%;
+}
+#registro form button{
+margin-left:39%;
+    width: 20%;
+    height: 10%;
+    background-color: rgb(253, 142, 68);
+    color: rgb(3, 34, 95);
+}
+
+.form-control:focus {
+    border: 1px solid rgba(7, 48, 230, 0.315);
+    box-shadow: 0px 0px 2px rgba(255, 106, 20, 0.938);
+}
+
+/*--------------------------------- FOOTTEEEEEEERRR-----------------------------------------*/
+
+#contacto{
+    height: auto;
+    width: 100%;
+    background-color: rgb(3, 34, 95);
+    padding: .3em;
+    color: rgb(208, 225, 252);
+}
+#contacto .container{
+    height: 100%;
+}
+#contacto .lado1 .container .row{
+    height: 30%;
+    color: rgb(208, 225, 252);
+    font-size: 0.8rem;
+    margin-left: 1%;
+}
+#contacto .redes .container .map{
+    height: 300px;
+   
+}
+
+.map iframe{
+    width: 100%;
+}
+
+.fab{
+    font-size: 2.5rem;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: rgb(208, 225, 252);
+    transition: all 0.2s;
+}
+
+.fab:hover{
+    text-shadow: 0px 0px 5px rgba(252, 149, 53, 0.836);
+  
+}
+
+
+/*-----------------------------------------------------------------COMIENZA TABLEC O LACTOC CHIQUIS------------------------------*/
+
+@media screen and ( max-width: 999px){
+      .inicial{
+          display: none;
+      }
+ 
+      .final nav .firs li{
+          display:none;
+      }
+
+      #supermenu .dropdown-menu{
+          background-color: rgb(198, 211, 218);
+      }
+
+      #supermenu .dropdown:hover{
+        box-shadow: 0px 0px 7px rgba(253, 142, 68, 0.397);
+    }
+
+.final nav{
+    float: right;
+}
+#supermenu{
+    margin-right: 10px;
+    margin-top: 0px;
+}
+   #supermenu ul{
+         height: auto;
+         display: block;
+         padding: 0px;
+         border-top: 1px solid rgba(118, 160, 252, 0.952)
+     }
+
+     #supermenu ul li{
+         display: block;
+         width: 100%;
+         height: auto;
+         margin: 0px auto;
+         padding: .8em;
+         color: rgba(15, 57, 248, 0.959);
+     }
+
+      .final nav .firs #supermenu{
+        display:block;
+        float: right;
+    }
+
+    .final .firs li #supermenu a{
+     color: rgba(158, 167, 185, 0.904);
+        display:block;
+    }
+      
+           .tabla{
+               display: block;
+            height: 3rem ;
+            background-color:rgb(175, 190, 255);
+            box-sizing: border-box;
+        position: fixed ;
+        top:0 ;
+        width: 100% ;
+        left: 0 ;
+        right:0;
+        z-index: 5;
+        }
+        .final{
+            height: 3rem!important;
+        }
+      .tabla h1{
+            display: inline-block;
+            padding:0.5em;
+        width: 100%;
+        height: 100%;
+        font-size: 1.2rem;
+        color: rgb(5, 84, 255);
+        background-image: url("/imagenes/Logo\ Provida\ 2\ \(2\).png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 55%;
+        background-position: 20px 5px;
+        
+        }
+        .tabla figure{
+            display: none;
+        }
+       
+        .tabla #inicia{
+            display: block;
+            padding: 0px;
+        }
+        .tabla figure img{
+          
+            display:none;
+        }
+        .tabla .firs{
+          float: right;
+          padding: 0px;
+          padding-top: 1%;
+        }
+        
+       .tabla nav{ 
+            display: inline-block;
+            box-sizing: border-box;
+          padding: 0px;
+           width: 100%;
+           height: 100%;
+             float: right;
+          text-align: right;
+        }
+        
+        .tabla nav ul{
+            padding-top:0.2rem;
+            display: inline-block;
+            margin-top: 0px;
+            margin-right: 0px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .tabla nav ul li{      
+            display: inline-block;
+           width:auto;
+           margin: 0.2% 1%;
+            color: burlywood;
+        }
+
+        #supermenu .dropdown-menu ul li a{
+            color: rgb(80, 68, 253);
+            font-size: 0.7rem;
+            font-weight: bold;   
+            }
+                 
+        .tabla nav ul li a{
+        color: rgb(253, 142, 68);
+        font-size: 0.7rem;
+        font-weight: bold;
+      }
+        .tabla .chaolin{
+            display: none;  
+            margin-right: 0px;
+        }
+        .tabla #supermenu .btn{  
+                background-color: rgb(198, 211, 218);
+                width: 2.5rem;
+                padding-top: 0px;
+            }
+#supermenu .btn i{
+         padding-top:6px;
+         color: rgb(15, 46, 109);
+     }
+#supermenu .dropdown-menu form .btn{
+            background: blue;
+            width: auto;
+        }
+   
+        .custom{
+            font-size: .8em;
+            font-weight: bold;
+            color: #5297ff;
+            text-shadow: 1px 1px  rgba(255, 111, 28, 0.548);
+                }
+        
+        .dropdown-menu{
+            box-sizing: border-box;
+            padding: 1em 0.4em;
+          background-color:rgb(198, 211, 218);
+            width: 300px;
+            border-color: 1px 1px 5px 10px rgba(255, 155, 119, 0.671);
+            text-align: center;
+            margin-top: 0.6rem;
+        }
+        
+      #supermenu .dropdown{
+          color: rgb(30, 87, 201);
+      }
+      
+/*---------------------------HEADER READY-------------------------/*/
+
+/*---------------------- presentTACIONPRESENTACIONPRESENTACION PRESENTACION----------------------------*/
+
+    #presentacion{
+        height: 20rem;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 4rem;
+        padding-top: 5%;
+    }
+#presentacion #calesita{
+    height: 100%;
+}
+
+.mision .texto h1{
+    font-size:1.5em;
+    padding:0.4em;
+}
+
+.mision .texto p{
+    font-size: 0.6em;
+    padding: .4em;
+}
+.texto{
+    padding: 0px;
+}
+#tres  .texto p{
+    font-size: 0.56em;
+}
+#tres  .texto h3{
+    font-size:0.8em;
+}
+#tres  .texto{
+    padding-top:0.1em;
+}
+.carousel-control-prev, .carousel-control-next{
+    padding-bottom:25%;
+}
+
+/*----------------------------- resultados RESULTADOS resultados-----------------<*/
+
+
+#pruebas{
+   height: auto;
+    padding:.2em;
+}
+
+#pruebas h2{
+    margin-left:2%;
+    font-size: 3em;
+}
+#pruebas address{
+    font-size: 1rem;
+}
+#pruebas p{
+    font-size: 1.4rem;
+   
+}
+
+/*---------------- analisis analisis analaisis--------------------------------------------*/
+#analisis{
+    padding-top: 5rem;
+    height: 600px;
+}
+#lectura{
+    margin: 0 auto;
+}
+#lectura article h3{
+   position: absolute;
+    font-size:1px;
+    color: rgb(0, 57, 170);
+    opacity:0;
+    width: 50%;
+    transition: opacity .3s .1s  ease-in;
+    top: 35%;
+    left:2%;
+}
+
+#lectura article:hover h3{
+    font-size: .68em;
+    opacity:1;
+    width: 100%;
+} 
+
+#perfiles{
+    width: 100%;
+    margin: 0 auto;
+}
+#perfiles article{
+    width: 45%;
+    margin: 0 auto;
+}
+
+#perfiles article:hover{
+    width: 50%;
+    height: 90%;
+    
+}
+
+#perfiles h3{
+    padding-top: 1%;
+    font-size: 1.2rem;
+   
+}
+  
+}/*-------------------------SE ACABO TABLEC------------------------------------/*
+
+
+/*----------------cOMIENZAA TELEFONOOOOOOOO-------------------------------------*/
+
+@media screen and ( max-width: 599px){
+
+    #inicia .btn{
+      width: 5rem;
+      padding-left: 7px;
+      margin-top: 5px;
+      height: 1.3rem;
+      font-size: .6rem;
+    }
+      .tabla nav ul li a{
+        color: rgb(18, 103, 214);
+        font-size: 0.6rem;
+        font-weight: bold;
+        }
+      .inicial h1,  .final h1{
+            background-size: 85%;
+            background-position: 2px 5px;
+        }
+
+/*-------------------------------- CALESITA-------------------------------------------------*/
+#primera{
+    height: 100%;
+}
+.carousel-item{
+    height: 100%;
+}
+#presentacion{
+    margin-left: 2%;
+}
+.mision figure{
+  display: none; 
+}
+.texto{
+    height: 100%;
+    padding: 0em;
+    text-align: center;
+    color: rgba(44, 54, 82, 0.753);  
+}
+
+#presentacion div#calesita{
+    height: 100%;
+}
+#primera .texto{
+    box-sizing: border-box;
+    background-image: url("/imagenes/Otto.jpeg");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position:110px 110px;
+    background-blend-mode: lighten;
+}
+
+
+#primera .texto h1{
+   text-align: center;
+font-size:1em;
+padding:0em;
+}
+.mision .texto p{
+font-size: .64em;
+padding: 0em;
+color: rgb(105, 94, 255);
+width: 100%;
+text-align: justify;
+}
+
+#segunda{
+    height: 100%;
+}
+
+#segunda .texto{
+    height: 100%;
+    width: 100%;
+    
+    box-sizing: border-box;
+    background-image: url("/imagenes/calesita2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 65% 40%;
+    background-position:55px 120px;
+    background-blend-mode: lighten;
+    }
+#segunda .texto p{
+    padding-top: 0rem;
+}
+#segunda .texto h1{
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+
+#tres .texto h3{
+    text-align: center;
+    width: 100%;
+    font-size: 0.8rem;
+}
+#tres .mision .texto p {
+    padding:.3rem;
+    width: 100%;
+    font-size: .7rem;
+    text-align: justify;
+}
+/*----------ANALISIS------------------*/
+
+#analisis{
+    height: auto;
+  width: 100%;
+    padding: 10% 0px;
+    margin-left: 2%;
+}
+#lectura{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%; 
+}
+
+#lectura article{
+    background-color: rgba(175, 190, 255, 0.438);
+    background-repeat: no-repeat;
+    width: 52%;
+    height: 100%;
+    padding: 1.3em;
+    transform: perspective(500px) translateZ(-10px);
+   background-size: 10% 5%;
+   transition: all 0.3s ease-out;
+   box-shadow: 0px 0px 5px rgba(122, 166, 255, 0.904);
+   margin: 0px auto;
+   margin-bottom:20%;
+   padding-bottom: 5em;
+}
+#lectura article h3{
+    padding-top:15%;  
+    }
+#lectura article:hover{
+    width:60%;
+    }
+#lectura article:hover figure{
+    width: 92%;
+    height: 100%;
+}
+#lectura article:hover h3{
+    font-size: 0.7em;
+    opacity:1;
+    width: 90%;
+} 
+#perfiles{
+    padding:0.1em;
+        text-align: center;
+        width: 80%;
+        height:40%;
+         margin: 0 auto;     
+}
+
+#perfiles article{
+    width: 85%;
+    height:60%;
+   margin:0 auto;
+    transition: all 0.3s ease-in;
+    background-color: rgba(175, 190, 255, 0.438);
+    box-shadow: 0px 0px 5px rgba(122, 166, 255, 0.904);
+}
+
+#perfiles figure{
+    margin:0px auto;
+    width: 110%;
+    height: 90%;
+    position:absolute;
+    left: -18%;
+    top:-10%;
+    transition: all .4s ease-in;
+}
+#perfiles figure img{
+    width: 90%;
+    height: 85%;
+}
+#perfiles h3{
+    color: rgb(0, 51, 153);
+    font-size: 1.2em;
+    padding-top: 5%;
+    transition: all .2s ease-in-out;
+}
+
+#perfiles p{
+    position: relative;
+    bottom:0px;
+    margin-top: 30%;
+    padding: 0.1em;
+    font-size: 0.9em;
+    opacity: 0;
+    transition: opacity 0.4s 0.1s ease-in;
+    color: rgb(0, 60, 180);
+}
+ #perfiles article:hover{
+    width: 90%;
+   
+}
+
+#perfiles article:hover figure{
+    width: 95%;
+    height:90%;
+    
+}
+
+#perfiles article:hover p{
+    font-size:0.9em;
+    opacity:1;
+}
+
+#perfiles article:hover h3{
+    margin-left: 75%;
+}
+
+/*/------------------------------------ REGISTRIO----------------/*/
+
+#registro form button{
+    margin-left:33%;
+        width: 35%;
+        height: 10%;
+        background-color: rgb(253, 142, 68);
+        color: rgb(3, 34, 95);
+    }
+}
+/*--------------------FOOTER---------------*/
+#contacto .redes address{
+    font-size: 0.8rem;
+}
+
+.lado1{
+    height: 100%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+body{
+    margin: auto;
+  
+  
+    /* background-image: linear-gradient(to bottom, #FFF, rgb(235, 145, 29));
+    background-repeat: no-repeat; */
+}
+#cuerpo{
+    width: 90vw;
+
+   height: auto;
+  margin: 0 auto;
+}
+ #cuerpo h2{
+
+    color: rgb(0, 93, 129);
+}
+
+
+#inicia .dropdown-menu .adentro{
+    width: 300px;
+}
+
+footer{
+    margin-top: 5%;
+    background-color: rgba(235, 145, 29, 0.9);
+    height: 90px;
+    color:rgb(48, 63, 150);
+    border-radius: 2px;
+    
+    padding-bottom: 1em;
+    margin-bottom: 0px;
+    
+}
+footer address{
+    margin-left: 5px;
+    font-size: 0.7rem;
+    
+}
+footer p{
+    font-size: 0.9rem;
+}
+
+
+
+#guardado{
+   width: 35%;
+}
+
+#guardado img{
+    width: 100%;
+}
+#cuerpo .card{
+    margin: 10px 0px;
+    border: 1px ridge rgba(219, 219, 219, 0.932);
+    border-radius: 10px;
+}
+.card-header{
+    
+    background-color: rgb(216, 216, 216);
+  
+}
+.card-header .btn{
+  border-radius: 5px;
+    border: 1px ridge  rgba(0, 217, 255, 0.488);
+    box-shadow: 0px 0px 5px rgba(217, 229, 250, 0.438);
+}
+.card-header .btn:hover{
+    box-shadow: 0px 0px  10px rgba(17, 27, 83, 0.363);
+}
+.card .btn:focus{
+   
+    box-shadow: 0px 0px  10px rgba(17, 27, 83, 0.363), inset 0px 0px 5px rgba(255, 255, 255, 0.726);
+}
+
+
+small{
+    float: right;
+    font-size: .8rem;
+}
+
+@media all and (max-width: 600px){
+
+    .rojo, .azul{
+        width: 100%;
+        margin:0px;
+    }
+
+    header div h1{
+        padding-top:40%;
+        font-size:1.5rem;
+    }
+    footer p{
+        font-size: 0.7rem;
+    }
+    footer address{
+        
+        font-size: 0.6rem;
+        
+    }
+}
+
